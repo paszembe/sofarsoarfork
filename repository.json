@@ -1,5 +1,5 @@
 {
-  "name": "Hass.IO add-on repository by Paweł Ka",
-  "url": "https://github.com/pawelka/hassio-addons",
-  "maintainer": "Paweł Ka"
+  "name": "Fork of Hass.IO add-on repository by Paweł Ka",
+  "url": "https://github.com/kmalmur/hassio-addons",
+  "maintainer": "Krzysztof Malmur"
 }
