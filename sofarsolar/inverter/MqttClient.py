@@ -125,7 +125,8 @@ class MqttClient(object):
                               "manufacturer": self.inverter_manufacturer,
                               "model": self.inverter_model}
             d[k]["device_class"] = "energy" 
-            d[k]["state_class"] = "total_increasing"                 
+            d[k]["state_class"] = "total_increasing"
+            d[k]["enabled_by_default"] = "true"                 
             d[k]["state_topic"] = self.mqtt_topic+"/"+self.inverter_sn+"/state"
             d[k]["unique_id"] = self.inverter_sn + "_" + k
             d[k]["value_template"] = "{{ value_json."+k+" }}"
