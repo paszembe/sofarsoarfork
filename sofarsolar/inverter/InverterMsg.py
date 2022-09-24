@@ -14,7 +14,7 @@ offset = {
     9: 70,  # f_ac(70)
     10: 72,  # p_ac/power(72)
     11: 76,  # e_today(76)
-    12: 80,  # e_total(71)
+    12: 80,  # energy(71)
 }
 
 
