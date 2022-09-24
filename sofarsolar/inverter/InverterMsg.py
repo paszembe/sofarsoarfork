@@ -290,5 +290,5 @@ class InverterMsg(object):
         d["f_ac"] = self.f_ac()
         d["power"] = self.p_ac()
         d["e_today"] = self.e_today
-        d["e_total"] = self.e_total
+        d["energy"] = self.energy
         return d

@@ -117,7 +117,7 @@ class MqttClient(object):
         d["f_ac"] = {"unit_of_measurement": "Hz"}
         d["power"] = {"unit_of_measurement": "W"}
         d["e_today"] = {"unit_of_measurement": "kWh"}
-        d["e_total"] = {"unit_of_measurement": "kWh"}
+        d["energy"] = {"unit_of_measurement": "kWh"}
 
         for k in d:
             d[k]["device"] = {"identifiers": self.inverter_sn,
